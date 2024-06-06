@@ -1,0 +1,84 @@
+/* General styles */
+body {
+  background-color: #282c34;
+  color: white;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh  ;
+  width: 100%;
+  background-color: var(--blueGradiant);
+}
+
+.container {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-size: 2.3rem;
+  margin-bottom: 1.5rem;
+  -top: 0;
+}
+
+.game-info-container {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  padding: 0 2rem;
+  position: absolute;
+  top: 16%;
+
+}
+
+.game-info {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.board-row {
+  display: flex;
+}
+
+.button {
+  background-color: #1C140F;
+  color: white;
+  font-size: 5rem;
+  border: 2px solid #1C140F;
+  border-radius: 15px;
+  width: 110px !important;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin: 4px;
+}
+
+.button.o {
+  color: #831515;
+}
+
+.button.x {
+  color: #3b2a9f;
+}
+
+.winner-announcement {
+  margin-top: 1rem;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
