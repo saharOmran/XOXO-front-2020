@@ -17,7 +17,7 @@
 
 .hom{
     width: 100%;
-    height: 500px;
+    height: 490px;
 }
 
 body {
@@ -28,12 +28,12 @@ body {
     background-color: var(--blueGradiant);
 }
 
-.title {
+.title-hom {
     width: 816px;
     height: 68px;
-    font-size: 56px;
+    font-size: 42px;
     margin-top: 0;
-    margin-bottom: 150px;
+    margin-bottom: 120px;
     font-weight: 700;
     line-height: 67.5px;
     text-align: center;
@@ -44,8 +44,9 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 50px;
-    margin-bottom: 180px;
+    gap: 40px;
+    margin-top: 17%;
+    margin-bottom: 190px;
     color: var(--secondery--2);
 }
 
@@ -60,22 +61,25 @@ body {
     border: none;
 }
 
-a {
+ .score{
     text-decoration: none;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 500;
-    line-height: 30px;
+    width: 220px;
+    height: 45px;
+    background-color: var(--blueGradiant);
     text-align: center;
     color: white !important;
 }
  
-.foot {
+.foot-hom {
     width: 816px;
-    height: 31px;
+    height: 30px;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 31.04px;
     text-align: center;
+    margin-top: 20% !important;
     color: var(--secondery--2);
 }
 
@@ -85,4 +89,8 @@ span {
     font-weight: 500;
     line-height: 0px;
     text-align: center;
+}
+
+.hom{
+    margin-bottom: 90px;
 }

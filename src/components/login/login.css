@@ -1,13 +1,24 @@
 .login{
     height: 500px;
     color: white;
+    margin-top: 0;
+    margin-bottom: 16%;
 }
 
 .labelform{
     font-size: 27px;
+    display: block;
     width: 200px;
+    margin-top: 40% !important;
+    margin: auto;
 }
- 
+
+.title-log {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 67.5px;
+    text-align: center;
+}
  
 .in-1{
    width: 195px;
@@ -28,9 +39,16 @@
     margin-top: 15px;
 }
 
-.foot{
+.foot-log{
     margin-bottom: 0;
-    margin-top: 160px;
+    margin-top:52% !important;
     font-size: 23px;
+    color: var(--secondery--2);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 31.04px;
+    text-align: center;
+    
+     
 }
  

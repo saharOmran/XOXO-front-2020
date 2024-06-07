@@ -4,6 +4,7 @@ import './App.css'
 import HomePage from './components/homepage/HomePage'
 import Login from './components/login/Login'
 import Game from './components/game/Game'
+import Table from './components/table/Table'
 
 function App() {
   
@@ -14,7 +15,7 @@ function App() {
             <Route path='/' element={<HomePage/>} />
             <Route path='/Login' element={<Login/>} />
             <Route path='/Game' element={<Game/>} />
-
+            <Route path='/Table' element={<Table/>} />
 
         </Routes>
       </BrowserRouter>

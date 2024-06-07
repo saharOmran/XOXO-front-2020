@@ -47,7 +47,7 @@ try {
     return(
         <>
             <div className='d-flex flex-column justify-content-center login'>
-            <h1 className="text-white mt-5 mb-4 fw-bold title">Tic-Tac-Toe</h1>
+            <h1 className="text-white mt-5 mb-4 fw-bold title-log">Tic-Tac-Toe</h1>
 
              <div className='form d-flex flex-column text-white'>
                 <Form>
@@ -74,10 +74,10 @@ try {
                     />
                 </Form.Group>
                 </Form>
-                <button className="start-btn " onClick={handleStartGame}>
+                <button className="start-btn " onClick={handleStartGame}  disabled={!name1 || !name2}>
                      START GAME
                 </button>
-                <p className='foot fw-bold'>Proved By SAHAR OMRAN 2012</p>
+                <p className='foot-log fw-bold'>Proved By SAHAR OMRAN 2012</p>
             </div>  
             </div>
                 {gamestarted===1 && <Game name1={name1}  name2={name2}/>}
